@@ -191,7 +191,7 @@ int main() {
     printf("Elapsed time: %f seconds\n", elapsed_time);
     printf("All Count: %d\n", allCount);
     printf("Even Count: %d\n", evenCount);
-    printf("OddCount  : %d\n", oddCount);
+    printf("Odd Count  : %d\n", oddCount);
 
     printf("All threads have finished successfully.\n");
     fclose(all);
