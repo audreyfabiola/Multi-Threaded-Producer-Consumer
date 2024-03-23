@@ -31,8 +31,6 @@ int flag = 0;
 pthread_mutex_t mutex;
 pthread_cond_t stack_not_full = PTHREAD_COND_INITIALIZER;
 pthread_cond_t stack_not_empty = PTHREAD_COND_INITIALIZER;
-pthread_cond_t even_access = PTHREAD_COND_INITIALIZER;
-pthread_cond_t odd_access = PTHREAD_COND_INITIALIZER;
 
 int stack[BUFFER_SIZE];
 int stack_top = 0;
