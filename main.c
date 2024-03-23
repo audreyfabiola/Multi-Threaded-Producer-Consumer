@@ -189,9 +189,10 @@ int main() {
     pthread_mutex_destroy(&mutex);
 
     printf("Elapsed time: %f seconds\n", elapsed_time);
+    printf("All Count: %d\n", allCount);
     printf("Even Count: %d\n", evenCount);
-    printf("Odd Count  : %d\n", oddCount);
-    
+    printf("OddCount  : %d\n", oddCount);
+
     printf("All threads have finished successfully.\n");
     fclose(all);
     fclose(even);
@@ -199,3 +200,4 @@ int main() {
 
     return 0;
 }
+
